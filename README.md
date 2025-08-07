@@ -1,8 +1,8 @@
-Simple Addon / Editor combo to export FBX from Blender with texture and generate into a prefab in Unity3D directly.
+## Simple Addon / Editor combo to export FBX from Blender with texture and generate into a prefab in Unity3D directly.
 
-How to use:
+## How to use:
 
-Blender:
+### Blender:
 1. Open Blender
 2. Select Edit -> Preferences (or use CTRL + somewhere in the scene)
 3. Select Addons
@@ -19,7 +19,14 @@ Blender:
 12. Ignore scale and rotation sets Scale to 1,1,1 and rotation to 0,0,0 before export.
 13. Click export
 
-
+### Unity
+1. Create folder named Editor in lowest hirarchy
+2. Copy and paste FbxPrefabImporter.cs into it
+3. In the top row, you should now see a tab called Tools
+4. Click FBX Prefab Importer
+![Screenshot3](https://lemonspurple.github.io/various_graphics/screenshot_3_btu.png)
+5. Select folder
+6. Upon opening your assets are imported into "ImportedFBX" in the base hirarchy level and a prefab is created. The .JSON is deleted in the Unity project.
 
 Stuff to do:
 - Add functionality for multiple fbx imports
