@@ -41,3 +41,4 @@ Small Add-on / Tool combo to export .fbx with textures and generate a prefab in 
 - Extend shader options. Only works with Universal Render Pipeline/Lit at the moment.
 - Allow user to adjust paths for where prefabs, materials and textures land.
 - Batch support
+- Test on different blender constellations
