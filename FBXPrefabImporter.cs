@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 using System.IO;
 using System.Collections.Generic;
 
-public class FbxPrefabImporter : EditorWindow
+public class FBXPrefabImporter : EditorWindow
 {
     [System.Serializable] public class Root { public Settings settings; public FbxObject[] objects; }
     [System.Serializable] public class Settings { public bool export_textures; public bool ignore_transform; }
