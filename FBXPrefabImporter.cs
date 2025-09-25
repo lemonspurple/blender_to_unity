@@ -46,7 +46,7 @@ public class FBXPrefabImporter : EditorWindow
     [MenuItem("Tools/FBX Prefab Importer")]
     public static void ShowWindow()
     {
-        GetWindow<FbxPrefabImporter>("FBX Prefab Importer");
+        GetWindow<FBXPrefabImporter>("FBX Prefab Importer");
     }
 
     private void OnEnable()
